@@ -1,0 +1,405 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ /* border: solid 1px black;*/
+}
+
+
+section:nth-child(1){    /*primer elemento section*/
+    height: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    width: 1080px;
+    height: 100%;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.menu{
+    height: 7%;
+    background: #B4C93D
+}
+
+.header{
+    height: 37%;
+   
+    display: flex;
+}
+
+.lista1{
+    height: 28%;
+}
+
+.lista2{
+    height: 28%;
+}
+
+.etiqueta{
+    position: relative;
+    top: 5%;
+    height: 80%;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    border-radius: 20px;
+}
+
+.buscador{
+    height: 100%;
+    float: left;
+    width: 50%;
+    
+   
+}
+.imagenHaceb{  
+    position: relative;
+    top: 15%;
+    right: -15%;
+    margin-left: auto;
+    margin-right: auto
+}
+.Search{
+    position: relative;
+    top: 30%;
+    right: -15%;
+    margin-left: auto;
+    margin-right: auto
+}
+.parafo{
+    position: relative;
+    top: 45%;
+    right: -15%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+.imagenPrinciapl{
+    position: relative;
+    top: -43%;
+    right: -10%;
+    height: 60%;
+    transform: rotate(25deg);
+    z-index: 1;
+}
+
+.imageLista2{
+    position: relative;
+    top: -400px;
+    right: 5%;
+    height: 500px;
+    z-index: 1;
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+.slider {
+    position: relative;
+    top: -18%;
+    width: 90%;
+    margin: auto;
+    z-index: 1;
+    }
+    ul {
+    margin: 0;
+    padding: 0;
+    }
+    ul li {
+    list-style: none;
+    text-align: center;
+    }
+    
+    
+    .slider-arrow {
+    position: relative;
+    top: -44%;
+    font-size: 1cm;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    
+    }
+    .sa-left {
+    left: 2%;
+    }
+    .sa-right {
+    right: -95%;
+    }
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+    .sliderMenu {
+        position: relative;
+        top: 40%;
+        width: 90%;
+        margin: auto;
+        font-size: 0.5cm;
+        }
+        .slider-arrowMenu {
+        position: absolute;
+        top: 0%;
+        font-size: 1cm;
+        color:black;
+        text-decoration: none;
+        
+        }
+        .sa-leftMenu {
+        left: 2%;
+        }
+        .sa-rightMenu {
+        right: 0%;
+        }
+
+
+input[type=text] {
+  width: 80%;
+  height: 1.3cm;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 23px;
+  background-color: #ccc;
+  background-image: url('./media/img/find-icon-38317.png');
+  background-size: 1cm;
+  background-position: 97% 80%;  
+  background-repeat: no-repeat;
+  
+}
+
+
+.tituloEtiqueta{
+    font-size: 1cm;
+    color: white;
+}
+
+.parrafo{
+    font-size: 0.7cm;
+    color: white;
+}
+
+.descuento{
+    font-size: 0.7cm;
+    color: white;
+    text-decoration:line-through;
+}
+
+.estiqueta-carrito{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+/***************************************************************/
+.hexagonotargetaImg{
+    position: relative;
+    top: 40px;
+    right: -10%;
+    height: 350px;
+    width: 350px;
+ 
+    z-index: 0;
+}
+.rectanguloUnotargetaImg{
+    height: 200px;
+    width: 350;
+    background: rgb(204, 121, 121);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    top: 20%;
+    right:0% ;
+}
+.rectanguloDostargetaImg{
+    height: 200px;
+    width: 350px;
+    background: rgb(204, 121, 121);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(-60deg);
+    top: -37.5%;
+    right:0% ;
+}
+.rectanguloTrestargetaImg{
+    height: 200px;
+    width: 350px;
+    background: rgb(204, 121, 121);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(60deg);
+    top: -95%;
+    right:0% ;
+    box-sizing: 10px;
+
+}
+/***************************************************************/
+
+.hexagonoUno{
+    position: relative;
+    top: 20%;
+    right: -15%;
+    height: 450px;
+    width: 450px;
+
+    z-index: 0;
+}
+.rectanguloUnoImg{
+    height: 258px;
+    width: 450px;
+    background: rgb(219, 214, 214);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    top: 20%;
+    right:0% ;
+    
+}
+.rectanguloDosImg{
+    height: 258px;
+    width: 450px;
+    background: rgb(219, 214, 214);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(-60deg);
+    top: -37.5%;
+    right:0% ;
+    
+}
+.rectanguloDosTres{
+    height: 258px;
+    width: 450px;
+    background: rgb(219, 214, 214);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(60deg);
+    top: -95%;
+    right:0% ;
+    box-sizing: 10px;
+}
+
+
+.caja{
+    position: relative;
+    top: 20%;
+    z-index: 0;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+/**********************************************************************/
+/**********************************************************************/
+.caja1{
+    position: relative;
+    right: -115px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.rectanguloUnotrasparente{
+
+    height: 114px;
+    width: 200px;
+    border: solid 2px rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(90deg);
+    top: 21%;
+    right:0% ;
+}
+.rectanguloDostrasparente{
+    height: 114px;
+    width: 200px;
+    border: solid 2px rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(150deg);
+    top: -36%;
+    right:0% ;
+}
+.rectanguloTrestrasparente{
+    height: 114px;
+    width: 200px;
+    border: solid 2px rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(30deg);
+    top: -93%;
+    right:0% ;
+    
+}
+/**********************************************************************/
+/**********************************************************************/
+
+.caja2{
+    position: relative;
+    right: -240px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.rectanguloUnoColor{
+
+    height: 114px;
+    width: 200px;
+    background: rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(90deg);
+    top: 21%;
+    right:0% ;
+}
+.rectanguloDosColor{
+    height: 114px;
+    width: 200px;
+    background: rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(150deg);
+    top: -36%;
+    right:0% ;
+}
+.rectanguloTresColor{
+    height: 114px;
+    width: 200px;
+    background: rgb(236, 106, 106);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    position: relative;
+    transform: rotate(30deg);
+    top: -93%;
+    right:0% ;
+    
+}
+
+/***********************************************************************/
+/***********************************************************************/
+
+.caja3{
+    position: relative;
+    right: -365px;
+    height: 200px;
+    width: 200px;
+   
+}

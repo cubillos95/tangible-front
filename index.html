@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.lbslider.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="sec1">
+        <div class="container">
+
+
+            <div class="menu">
+
+                <div class="sliderMenu">
+                    <ul>
+                        <li>
+                            <h1>Lavadora</h1>
+                        </li>
+                        <li>
+                            <h1>Refijeracion</h1>
+                        </li>
+                        <li>
+                            <h1>Cocina</h1>
+                        </li>
+                        <li>
+                            <h1>Calentadores</h1>
+                        </li>
+                        <li>
+                            <h1>Baño</h1>
+                        </li>
+
+                        ...
+                    </ul>
+                    <!----- flechas  ----->
+                    <a href="#" class="slider-arrowMenu  sa-leftMenu">&lt;</a>
+                    <a href="#" class="slider-arrowMenu  sa-rightMenu">&gt;</a>
+
+                </div>
+
+
+            </div>
+            <!---------------------------------------------------------->
+            <!---------------------------------------------------------->
+            <div class="header">
+                <div class="buscador">
+                    <div class="hexagonoUno">
+                        <div class="rectanguloUnoImg"></div>
+                        <div class="rectanguloDosImg"></div>
+                        <div class="rectanguloDosTres"></div>
+                    </div>
+
+                    <img src="./media/img/902fd4506a6acbae0a837472eba6eaec" class="imagenPrinciapl" alt="">
+                </div>
+
+                <div class="buscador">
+                    <div class="imagenHaceb">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_Haceb.jpg" alt=""
+                            style="height: 150px;">
+                    </div>
+
+                    <div class="Search">
+                        <input type="text" placeholder="¿Buscas un producto especial?">
+                    </div>
+
+                    <div class="parafo">
+                        <p>las mejores alternativas para</p>
+                        <p>hacer tu vida mas facil</p>
+                    </div>
+                </div>
+            </div>
+            <!---------------------------------------------------------->
+            <div class="lista1">
+                <h1 style="font-size: 1cm;">LINEAS DE PRODUCTOS</h1>
+                <div class="caja">
+                    <div class="caja1">
+
+                        <div class="rectanguloUnotrasparente"></div>
+                        <div class="rectanguloDostrasparente"></div>
+                        <div class="rectanguloTrestrasparente"></div>
+
+                    </div>
+                    <div class="caja2">
+
+                        <div class="rectanguloUnoColor"></div>
+                        <div class="rectanguloDosColor"></div>
+                        <div class="rectanguloTresColor"></div>
+
+                    </div>
+                    
+                    <div class="caja3">
+                        <div class="rectanguloUnotrasparente"></div>
+                        <div class="rectanguloDostrasparente"></div>
+                        <div class="rectanguloTrestrasparente"></div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <ul>
+                        <li> <img src="./media/img/2be7100c59ec08a375edcb5542c0357d" alt=""></li>
+                        <li> <img src="./media/img/bd0a6e57f3438c1a70813b7650f062af" alt=""> </li>
+                        <li> <img src="./media/img/1b882abe33d2b32af01e520369895795" alt=""></li>
+
+                        ...
+                    </ul>
+                </div>
+
+
+                <!----- flechas  ----->
+                <a href="#" class="slider-arrow sa-left">&lt;</a>
+                <a href="#" class="slider-arrow sa-right">&gt;</a>
+
+            </div>
+            <!---------------------------------------------------------->
+            <div class="lista2">
+                <h1 style="font-size: 1cm;">PRODUCTOS RECOMENDADOS</h1>
+
+                <div class="etiqueta">
+                    <div class="navegador">
+                        <div class="buscador">
+                            <div class="hexagonotargetaImg">
+                                <div class="rectanguloUnotargetaImg"></div>
+                                <div class="rectanguloDostargetaImg"></div>
+                                <div class="rectanguloTrestargetaImg"></div>
+                            </div>
+                            <img src="./media/img/5379b9ea0ed550ca050234a891f3b826" class="imageLista2" alt="">
+                        </div>
+
+                        <div class="buscador">
+                            <br>
+                            <h1 class="tituloEtiqueta">Cocinas</h1>
+                            <br><br>
+                            <p class="parrafo">Estufa de Empotrar Cristal</p>
+                            <p class="parrafo">60x50 Cm Natural Haceb</p>
+                            <br>
+                            <h1 class="descuento">$724.900</h1>
+                            <br>
+                            <h1 class="tituloEtiqueta">$630.663</h1>
+                            <br>
+
+                            <button class="estiqueta-carrito">
+                                <h2>Agregar a carrito</h2>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+    jQuery('.slider').lbSlider({
+        leftBtn: '.sa-left', // left button selector
+        rightBtn: '.sa-right', // right button selector
+        visible: 3, // visible elements quantity
+        autoPlay: true, // autoscroll
+        autoPlayDelay: 10 // delay of autoscroll in seconds
+    });
+
+    jQuery('.sliderMenu').lbSlider({
+        leftBtn: '.sa-leftMenu', // left button selector
+        rightBtn: '.sa-rightMenu', // right button selector
+        visible: 3, // visible elements quantity
+        autoPlay: true, // autoscroll
+        autoPlayDelay: 10 // delay of autoscroll in seconds
+    });
+</script>
+
+</html>
